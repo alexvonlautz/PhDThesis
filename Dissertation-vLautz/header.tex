@@ -1,0 +1,115 @@
+% !TEX root = Dissertation-vLautz.tex
+
+\documentclass[a4paper,
+               11pt,
+               twoside,
+               parskip=half,
+               headings=big]{scrbook}
+
+\usepackage{microtype} % enable typographic optimisations
+
+% === Linespacing
+% space between paragraphs instead of firstline indent
+% to avoid unsightly vertical spacing enable ragged raggedbottom
+% this means bottom line on opposing pages won't line up, but so it goes
+\usepackage[onehalfspacing]{setspace}
+\raggedbottom
+% set binding correction and DIV after setspace
+\KOMAoptions{BCOR=12mm, DIV=12}
+% set headings to singlespacing
+\setkomafont{chapter}{\singlespacing}
+\setkomafont{section}{\singlespacing\huge}
+\setkomafont{subsection}{\singlespacing\LARGE}
+\setkomafont{subsubsection}{\singlespacing\Large}
+
+% === Spacing before and after headings
+\RedeclareSectionCommand[
+  beforeskip=-1sp,
+  afterskip=1.0\baselineskip]{chapter}
+\RedeclareSectionCommand[
+  beforeskip=-2\baselineskip,
+  afterskip=.5\baselineskip]{section}
+\RedeclareSectionCommand[
+  beforeskip=-1\baselineskip,
+  afterskip=.5\baselineskip]{subsection}
+\RedeclareSectionCommand[
+  beforeskip=-1\baselineskip,
+  afterskip=0.25\baselineskip]{subsubsection}
+% === Hack to remove spacing added after heading by parskip
+% https://tex.stackexchange.com/questions/300528/set-parskip-but-not-for-headings
+\usepackage{xpatch}
+\xapptocmd{\sectionlinesformat}{\vspace*{-\parskip}}{}{}
+
+% === Figures and Tables
+\usepackage{rotating, graphicx} % allows to rotate pictures by 90 degrees
+\usepackage[section]{placeins}  % automatic floatbarrier at section
+\usepackage{booktabs}  % prettier tables
+
+% === Code Listings
+\usepackage{listings}
+% define various codestyles, for matlab there is a dedicated package
+\usepackage{matlab-prettifier}
+\lstdefinestyle{Lua}{
+  language         = {[5.0]Lua},
+  basicstyle       = \ttfamily,
+  showstringspaces = false,
+  upquote          = true,
+}
+\lstdefinestyle{bash}{
+  language         = {bash},
+  basicstyle       = \ttfamily,
+  showstringspaces = false,
+  upquote          = true,
+}
+
+% === Captions
+\usepackage[bf]{caption}
+\captionsetup{font=small}
+\captionsetup{format=plain}
+
+% === Encoding, Fonts and Symbols
+\usepackage[utf8]{inputenc}
+\usepackage{palatino}
+\usepackage{amsmath, amsthm, amssymb}  % mathfonts
+\usepackage{siunitx}  % use this for all Units, degree etc.
+
+% === Languages, Quotationmarks
+\usepackage[english,ngerman]{babel}  % english and german language support
+\usepackage[autostyle]{csquotes}  % required by bibtex8
+
+% === Bibliography and References
+\usepackage{csquotes}
+\usepackage[backend=biber,bibencoding=ascii,style=apa]{biblatex}
+\usepackage{url}
+%\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}  % links in PDF and autoref
+% always use "section" instead of "subsection" etc. in autorefs
+\addto\extrasenglish{
+  \let\subsectionautorefname\sectionautorefname
+  \let\subsubsectionautorefname\sectionautorefname
+}
+
+% === Colors
+\usepackage{xcolor}
+\definecolor{ctcolorchapternum}{cmyk}{1, .4, 0, 0.6}  % FZJ Blau
+\colorlet{ctcolorchapterline}{ctcolorchapternum}
+
+% === Fancy Chapter numbers
+\RedeclareSectionCommand[
+    beforeskip=1sp,
+    font=\Huge
+]{chapter}
+\renewcommand*\chapterformat{%
+    \smash{\textcolor{ctcolorchapterline}{\rule[-5pt]{2pt}{90pt}}}%
+    \enspace
+    \textcolor{ctcolorchapternum}{\fontsize{60pt}{60pt}\selectfont\thechapter}%
+}%
+\renewcommand*\chapterlinesformat[3]{%
+    \parbox[b]{\dimexpr\textwidth-1pt\relax}{\raggedchapter #3}%
+    \hfill
+    \makebox[0pt][l]{#2}%
+}
+
+% Lore Ipsum and Todos
+\usepackage[disable]{todonotes}  % use disable option to disable
+\usepackage{blindtext}  % placeholder text

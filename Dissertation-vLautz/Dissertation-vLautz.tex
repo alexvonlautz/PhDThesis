@@ -1,0 +1,84 @@
+\input{header}
+\bibliography{library.bib}
+
+\begin{document}
+\listoftodos
+\pagenumbering{gobble}
+
+% === Titlepage
+\title{How brain rhythms guide memory and decisions}
+\subject{\textnormal{\textsc{Dissertation}}}
+\author{\parbox{.7\textwidth}{\normalsize\centering
+  \foreignlanguage{ngerman}{ zur Erlangung des akademischen Grades \\
+ Doktor der Naturwissenschaften (Dr. rer. nat. / Ph. D.)\\
+ am Fachbereich Erziehungswissenschaften und Psychologie\\
+der Freien Universität Berlin
+ }}}
+\date{}%
+\publishers{\normalsize\foreignlanguage{ngerman}{%
+  von\\
+  {\Large \textsc{Alexander Horst von Lautz}\\[.5ex]}%
+  Berlin 2018\\}
+  % -- for final document version
+
+  }
+\maketitle
+  \newpage
+  \mbox{}
+  \vfill
+%\vspace{\fill}
+  \flushleft
+  1. Gutachter: Dr. Felix Blankenburg\\
+  2. Gutachter: Dr. Radoslav Cichy \\
+  \vskip 5mm
+  Tag der Disputation: 15.02.2019
+
+
+%\cleardoublepage
+%\selectlanguage{english}
+%\include{citation}
+
+%\cleardoublepage
+\pagenumbering{roman}
+%\setcounter{page}{1}
+%\selectlanguage{english}
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Acknowledgment}
+%\include{chapters/000_Acknowledgment}
+
+\selectlanguage{ngerman}
+\phantomsection
+\addcontentsline{toc}{chapter}{Zusammenfassung}
+\include{chapters/01_Zusammenfassung}
+
+\selectlanguage{english}
+\phantomsection
+\addcontentsline{toc}{chapter}{Abstract}
+\include{chapters/00_abstract}
+
+\cleardoublepage
+\renewcommand{\contentsname}{Table of Contents}
+\phantomsection
+\addcontentsline{toc}{chapter}{Table of Contents}
+\singlespacing
+\tableofcontents
+\doublespacing
+
+\cleardoublepage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\include{chapters/10_introduction}
+\cleardoublepage
+\include{chapters/20_summary}
+\cleardoublepage
+\include{chapters/30_discussion}
+
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+\printbibliography
+\cleardoublepage
+\selectlanguage{ngerman}
+\include{erklaerung}
+\end{document}
