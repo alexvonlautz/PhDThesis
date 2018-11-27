@@ -15,23 +15,23 @@
 \usepackage[onehalfspacing]{setspace}
 \raggedbottom
 % set binding correction and DIV after setspace
-\KOMAoptions{BCOR=12mm, DIV=12}
+\KOMAoptions{BCOR=14mm, DIV=13}%12
 % set headings to singlespacing
 \setkomafont{chapter}{\singlespacing}
-\setkomafont{section}{\singlespacing\huge}
-\setkomafont{subsection}{\singlespacing\LARGE}
-\setkomafont{subsubsection}{\singlespacing\Large}
+\setkomafont{section}{\singlespacing\Large}
+\setkomafont{subsection}{\singlespacing\large}
+\setkomafont{subsubsection}{\singlespacing\large}
 
 % === Spacing before and after headings
 \RedeclareSectionCommand[
   beforeskip=-1sp,
-  afterskip=1.0\baselineskip]{chapter}
+  afterskip=.5\baselineskip]{chapter}
 \RedeclareSectionCommand[
   beforeskip=-2\baselineskip,
-  afterskip=.5\baselineskip]{section}
+  afterskip=.25\baselineskip]{section}
 \RedeclareSectionCommand[
   beforeskip=-1\baselineskip,
-  afterskip=.5\baselineskip]{subsection}
+  afterskip=.25\baselineskip]{subsection}
 \RedeclareSectionCommand[
   beforeskip=-1\baselineskip,
   afterskip=0.25\baselineskip]{subsubsection}
@@ -79,7 +79,7 @@
 
 % === Bibliography and References
 \usepackage{csquotes}
-\usepackage[backend=biber,bibencoding=ascii,style=apa]{biblatex}
+\usepackage[backend=biber,bibencoding=ascii,style=apa,uniquename=false]{biblatex}
 \usepackage{url}
 %\usepackage{hyperref}
 \usepackage[hidelinks]{hyperref}  % links in PDF and autoref
@@ -109,6 +109,9 @@
     \hfill
     \makebox[0pt][l]{#2}%
 }
+
+% For PDF attachments
+\usepackage{pdfpages}
 
 % Lore Ipsum and Todos
 \usepackage[disable]{todonotes}  % use disable option to disable

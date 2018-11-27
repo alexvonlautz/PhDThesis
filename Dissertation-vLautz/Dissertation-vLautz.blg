@@ -1,212 +1,211 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [1] Config.pm:307> INFO - Logfile is 'Dissertation-vLautz.blg'
-[65] biber-MSWIN64:315> INFO - === 
-[122] Biber.pm:371> INFO - Reading 'Dissertation-vLautz.bcf'
-[499] Biber.pm:889> INFO - Found 235 citekeys in bib section 0
-[542] Biber.pm:4093> INFO - Processing section 0
-[577] Biber.pm:4254> INFO - Looking for bibtex format file 'library.bib' for section 0
-[579] bibtex.pm:1477> INFO - Reading ascii input as UTF-8
-[650] bibtex.pm:1523> INFO - LaTeX decoding ...
-[2523] bibtex.pm:1340> INFO - Found BibTeX data source 'library.bib'
-[2640] Utils.pm:193> WARN - ISBN '0879758104 9780879758103' in entry 'Epicurus1940' is invalid - run biber with '--validate_datamodel' for details.
-[2678] Utils.pm:193> WARN - ISBN '1939-1471' in entry 'Tanner1954' is invalid - run biber with '--validate_datamodel' for details.
-[2685] Utils.pm:193> WARN - ISBN '0147-006X' in entry 'Gold2007' is invalid - run biber with '--validate_datamodel' for details.
-[2696] Utils.pm:193> WARN - ISBN '0022-3077' in entry 'Mountcastle1969' is invalid - run biber with '--validate_datamodel' for details.
-[2713] Utils.pm:193> WARN - ISBN '0036-8075 (Print)$\backslash$r0036-8075 (Linking)' in entry 'Mountcastle1967' is invalid - run biber with '--validate_datamodel' for details.
-[2730] Utils.pm:193> WARN - ISBN '0270-6474 (Print)$\backslash$r0270-6474' in entry 'Mountcastle1990' is invalid - run biber with '--validate_datamodel' for details.
-[2744] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$r0022-3077' in entry 'Merzenich1969' is invalid - run biber with '--validate_datamodel' for details.
-[2750] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$r0022-3077' in entry 'Talbot1968' is invalid - run biber with '--validate_datamodel' for details.
-[2759] Utils.pm:193> WARN - ISBN '1053-8119 (Print)' in entry 'Nangini2006' is invalid - run biber with '--validate_datamodel' for details.
-[2777] Utils.pm:193> WARN - ISBN '1388-2457 (Print)' in entry 'Tobimatsu1999' is invalid - run biber with '--validate_datamodel' for details.
-[2797] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$n0896-6273 (Linking)' in entry 'Hernandez2010' is invalid - run biber with '--validate_datamodel' for details.
-[2808] Utils.pm:193> WARN - ISBN '0027-8424' in entry 'Hernandez2000' is invalid - run biber with '--validate_datamodel' for details.
-[2829] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$n0896-6273 (Linking)' in entry 'Lemus2010' is invalid - run biber with '--validate_datamodel' for details.
-[2838] Utils.pm:193> WARN - ISBN '1097-6256 (Print)' in entry 'Luna2005' is invalid - run biber with '--validate_datamodel' for details.
-[2847] Utils.pm:193> WARN - ISBN '0270-6474 (Print)$\backslash$r0270-6474' in entry 'Salinas2000' is invalid - run biber with '--validate_datamodel' for details.
-[2853] Utils.pm:193> WARN - ISBN '0954-898X (Print)$\backslash$r0954-898X (Linking)' in entry 'Kepecs2003' is invalid - run biber with '--validate_datamodel' for details.
-[2860] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)' in entry 'Kepecs2002' is invalid - run biber with '--validate_datamodel' for details.
-[2866] Utils.pm:193> WARN - ISBN '1471-003X' in entry 'Krahe2004' is invalid - run biber with '--validate_datamodel' for details.
-[2876] Utils.pm:193> WARN - ISBN '0022-3077 (Print)' in entry 'Reinagel1999' is invalid - run biber with '--validate_datamodel' for details.
-[2881] Utils.pm:193> WARN - ISBN '1873-5118 (Electronic)$\backslash$r0301-0082 (Linking)' in entry 'Romo2013' is invalid - run biber with '--validate_datamodel' for details.
-[2894] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Lundqvist2016' is invalid - run biber with '--validate_datamodel' for details.
-[2903] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Romo1999' is invalid - run biber with '--validate_datamodel' for details.
-[2911] Utils.pm:193> WARN - ISBN '0022-3077 (Print) 0022-3077 (Linking)' in entry 'Funahashi1989' is invalid - run biber with '--validate_datamodel' for details.
-[2917] Utils.pm:193> WARN - ISBN '0036-8075' in entry 'Fuster1971' is invalid - run biber with '--validate_datamodel' for details.
-[2921] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Goldman-Rakic1995' is invalid - run biber with '--validate_datamodel' for details.
-[2935] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Barak2010' is invalid - run biber with '--validate_datamodel' for details.
-[2948] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Fiebig2017' is invalid - run biber with '--validate_datamodel' for details.
-[2960] Utils.pm:193> WARN - ISBN '2041-1723 (Electronic)2041-1723 (Linking)' in entry 'Lundqvist2018a' is invalid - run biber with '--validate_datamodel' for details.
-[2978] Utils.pm:193> WARN - ISBN '0036-8075' in entry 'Mongillo2008' is invalid - run biber with '--validate_datamodel' for details.
-[2991] Utils.pm:193> WARN - ISBN '1879-307X (Electronic)$\backslash$r1364-6613 (Linking)' in entry 'Stokes2015' is invalid - run biber with '--validate_datamodel' for details.
-[3026] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Spitzer2010' is invalid - run biber with '--validate_datamodel' for details.
-[3032] Utils.pm:193> WARN - ISBN '0027-8424' in entry 'Spitzer2011' is invalid - run biber with '--validate_datamodel' for details.
-[3046] Utils.pm:193> WARN - ISBN '1471-0048' in entry 'Pasternak2005' is invalid - run biber with '--validate_datamodel' for details.
-[3052] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$r0896-6273 (Linking)' in entry 'Whittingstall2009' is invalid - run biber with '--validate_datamodel' for details.
-[3062] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$n0896-6273 (Linking)' in entry 'Cromer2010' is invalid - run biber with '--validate_datamodel' for details.
-[3068] Utils.pm:193> WARN - ISBN '0306-4522 (Print)' in entry 'Durstewitz2006' is invalid - run biber with '--validate_datamodel' for details.
-[3096] Utils.pm:193> WARN - ISBN '0306-4522' in entry 'Shafi2007' is invalid - run biber with '--validate_datamodel' for details.
-[3130] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$n0896-6273 (Linking)' in entry 'Stokes2013' is invalid - run biber with '--validate_datamodel' for details.
-[3139] Utils.pm:193> WARN - ISBN '1879-307X (Electronic)$\backslash$r1364-6613 (Linking)' in entry 'Stokes2016' is invalid - run biber with '--validate_datamodel' for details.
-[3153] Utils.pm:193> WARN - ISBN '0013-4694 (Print)$\backslash$n0013-4694 (Linking)' in entry 'Pfurtscheller1975' is invalid - run biber with '--validate_datamodel' for details.
-[3176] Utils.pm:193> WARN - ISBN '1097-0193' in entry 'Haegens2010' is invalid - run biber with '--validate_datamodel' for details.
-[3198] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Hernandez2002' is invalid - run biber with '--validate_datamodel' for details.
-[3223] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Jun2010' is invalid - run biber with '--validate_datamodel' for details.
-[3231] Utils.pm:193> WARN - ISBN '0896-6273 (Print)$\backslash$r0896-6273 (Linking)' in entry 'Romo2004' is invalid - run biber with '--validate_datamodel' for details.
-[3260] Utils.pm:193> WARN - ISBN '1091-6490 (Electronic)$\backslash$r0027-8424 (Linking)' in entry 'Haegens2011' is invalid - run biber with '--validate_datamodel' for details.
-[3302] Utils.pm:193> WARN - ISBN '0013-4694 (Print)$\backslash$r0013-4694 (Linking)' in entry 'Pfurtscheller1981' is invalid - run biber with '--validate_datamodel' for details.
-[3322] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Chapman1964' is invalid - run biber with '--validate_datamodel' for details.
-[3344] Utils.pm:193> WARN - ISBN '0013-4694 (Print)$\backslash$r0013-4694 (Linking)' in entry 'Donchin1967' is invalid - run biber with '--validate_datamodel' for details.
-[3365] Utils.pm:193> WARN - ISBN '0031-5117$\backslash$r1532-5962' in entry 'Rohrbaugh1974' is invalid - run biber with '--validate_datamodel' for details.
-[3374] Utils.pm:193> WARN - ISBN '1460-9568; 0953-816X' in entry 'Twomey2015' is invalid - run biber with '--validate_datamodel' for details.
-[3383] Utils.pm:193> WARN - ISBN '0960-9822' in entry 'Donner2009' is invalid - run biber with '--validate_datamodel' for details.
-[3409] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$n0270-6474 (Linking)' in entry 'Kelly2013' is invalid - run biber with '--validate_datamodel' for details.
-[3414] Utils.pm:193> WARN - ISBN '1769-7115' in entry 'Kelly2015' is invalid - run biber with '--validate_datamodel' for details.
-[3426] Utils.pm:193> WARN - ISBN '1546-1726 (Electronic) 1097-6256 (Linking)' in entry 'OConnell2012' is invalid - run biber with '--validate_datamodel' for details.
-[3456] Utils.pm:193> WARN - ISBN '1879-307X (Electronic)$\backslash$r1364-6613 (Linking)' in entry 'Philiastides2014' is invalid - run biber with '--validate_datamodel' for details.
-[3462] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Shadlen2013' is invalid - run biber with '--validate_datamodel' for details.
-[3471] Utils.pm:193> WARN - ISBN '0012-1606' in entry 'OConnell2018' is invalid - run biber with '--validate_datamodel' for details.
-[3487] Utils.pm:193> WARN - ISBN '0270-6474' in entry 'Britten1992' is invalid - run biber with '--validate_datamodel' for details.
-[3499] Utils.pm:193> WARN - ISBN '0952-5238 (Print)$\backslash$n0952-5238 (Linking)' in entry 'Britten1996' is invalid - run biber with '--validate_datamodel' for details.
-[3508] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$r0022-3077 (Linking)' in entry 'Baker1981' is invalid - run biber with '--validate_datamodel' for details.
-[3516] Utils.pm:193> WARN - ISBN '0021-9967 (Print)$\backslash$r0021-9967 (Linking)' in entry 'VanEssen1981' is invalid - run biber with '--validate_datamodel' for details.
-[3544] Utils.pm:193> WARN - ISBN '0022-3751 (Print)$\backslash$r0022-3751 (Linking)' in entry 'Zeki1974' is invalid - run biber with '--validate_datamodel' for details.
-[3551] Utils.pm:193> WARN - ISBN '1097-6256 (Print)' in entry 'Ditterich2003' is invalid - run biber with '--validate_datamodel' for details.
-[3559] Utils.pm:193> WARN - ISBN '0028-0836 (Print)$\backslash$r0028-0836' in entry 'Salzman1990' is invalid - run biber with '--validate_datamodel' for details.
-[3569] Utils.pm:193> WARN - ISBN '0270-6474 (Print)$\backslash$r0270-6474' in entry 'Salzman1992' is invalid - run biber with '--validate_datamodel' for details.
-[3578] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Katz2016' is invalid - run biber with '--validate_datamodel' for details.
-[3586] Utils.pm:193> WARN - ISBN '1047-3211 (Print)$\backslash$n1047-3211 (Linking)' in entry 'Felleman1991' is invalid - run biber with '--validate_datamodel' for details.
-[3591] Utils.pm:193> WARN - ISBN '0036-8075' in entry 'Hanes1996' is invalid - run biber with '--validate_datamodel' for details.
-[3597] Utils.pm:193> WARN - ISBN '0270-6474 (Print)$\backslash$n0270-6474 (Linking)' in entry 'Schall1995' is invalid - run biber with '--validate_datamodel' for details.
-[3612] Utils.pm:193> WARN - ISBN '0270-6474 (Print)$\backslash$n0270-6474 (Linking)' in entry 'Schall1995a' is invalid - run biber with '--validate_datamodel' for details.
-[3629] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$n0022-3077 (Linking)' in entry 'Thompson1996' is invalid - run biber with '--validate_datamodel' for details.
-[3637] Utils.pm:193> WARN - ISBN '0036-8075 (Print)$\backslash$r0036-8075 (Linking)' in entry 'VanEssen1992' is invalid - run biber with '--validate_datamodel' for details.
-[3643] Utils.pm:193> WARN - ISBN '0022-3077 (Print) 0022-3077 (Linking)' in entry 'Burman1997' is invalid - run biber with '--validate_datamodel' for details.
-[3649] Utils.pm:193> WARN - ISBN '0027-8424' in entry 'Moore2001' is invalid - run biber with '--validate_datamodel' for details.
-[3655] Utils.pm:193> WARN - ISBN '0028-0836 (Print)' in entry 'Moore2003' is invalid - run biber with '--validate_datamodel' for details.
-[3665] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$n0022-3077 (Linking)' in entry 'Robinson1969' is invalid - run biber with '--validate_datamodel' for details.
-[3677] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)' in entry 'Gold2000' is invalid - run biber with '--validate_datamodel' for details.
-[3690] Utils.pm:193> WARN - ISBN '1460-2199 (Electronic)$\backslash$n1047-3211 (Linking)' in entry 'Ding2012' is invalid - run biber with '--validate_datamodel' for details.
-[3697] Utils.pm:193> WARN - ISBN '0959-4388 (Print)$\backslash$n0959-4388 (Linking)' in entry 'Andersen1992' is invalid - run biber with '--validate_datamodel' for details.
-[3705] Utils.pm:193> WARN - ISBN '0021-9967 (Print)' in entry 'Blatt1990' is invalid - run biber with '--validate_datamodel' for details.
-[3711] Utils.pm:193> WARN - ISBN '0021-9967 (Print)$\backslash$r0021-9967 (Linking)' in entry 'Lewis2000' is invalid - run biber with '--validate_datamodel' for details.
-[3720] Utils.pm:193> WARN - ISBN '0021-9967 (Print)$\backslash$n0021-9967 (Linking)' in entry 'Andersen1990' is invalid - run biber with '--validate_datamodel' for details.
-[3736] Utils.pm:193> WARN - ISBN '0014-4819 (Print)' in entry 'Andersen1987' is invalid - run biber with '--validate_datamodel' for details.
-[3760] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$r0022-3077 (Linking)' in entry 'Barash1991' is invalid - run biber with '--validate_datamodel' for details.
-[3767] Utils.pm:193> WARN - ISBN '0014-4819 (Print)$\backslash$r0014-4819 (Linking)' in entry 'Gnadt1988' is invalid - run biber with '--validate_datamodel' for details.
-[3778] Utils.pm:193> WARN - ISBN '0147-006X (Print)$\backslash$r0147-006X (Linking)' in entry 'Andersen2002' is invalid - run biber with '--validate_datamodel' for details.
-[3785] Utils.pm:193> WARN - ISBN '0027-8424 (Print)$\backslash$r0027-8424 (Linking)' in entry 'Shadlen1996' is invalid - run biber with '--validate_datamodel' for details.
-[3791] Utils.pm:193> WARN - ISBN '0022-3077' in entry 'Shadlen2001' is invalid - run biber with '--validate_datamodel' for details.
-[3797] Utils.pm:193> WARN - ISBN 'ISSN{\~{}}{\~{}}22219475' in entry 'Roitman2002a' is invalid - run biber with '--validate_datamodel' for details.
-[3805] Utils.pm:193> WARN - ISBN '1097-6256 (Print)$\backslash$n1097-6256 (Linking)' in entry 'Hanks2006' is invalid - run biber with '--validate_datamodel' for details.
-[3810] Utils.pm:193> WARN - ISBN '0270-6474' in entry 'Huk2005' is invalid - run biber with '--validate_datamodel' for details.
-[3815] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Bennur2011' is invalid - run biber with '--validate_datamodel' for details.
-[3823] Utils.pm:193> WARN - ISBN '1095-9203 (Electronic)$\backslash$r0036-8075 (Linking)' in entry 'Siegel2015' is invalid - run biber with '--validate_datamodel' for details.
-[3844] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)' in entry 'Donner2008' is invalid - run biber with '--validate_datamodel' for details.
-[3859] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Nienborg2009' is invalid - run biber with '--validate_datamodel' for details.
-[3870] Utils.pm:193> WARN - ISBN '1662-5161 (Electronic)$\backslash$n1662-5161 (Linking)' in entry 'Siegel2011' is invalid - run biber with '--validate_datamodel' for details.
-[3881] Utils.pm:193> WARN - ISBN '0147-006X$\backslash$n978-0-8243-2435-3' in entry 'Buzsaki2012' is invalid - run biber with '--validate_datamodel' for details.
-[3903] Utils.pm:193> WARN - ISBN '1932-6203 (Electronic)$\backslash$n1932-6203 (Linking)' in entry 'Jann2010' is invalid - run biber with '--validate_datamodel' for details.
-[3931] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Keller2013' is invalid - run biber with '--validate_datamodel' for details.
-[3987] Utils.pm:193> WARN - ISBN '0028-0836 (Print)$\backslash$r0028-0836 (Linking)' in entry 'Logothetis2001' is invalid - run biber with '--validate_datamodel' for details.
-[4011] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$r0896-6273 (Linking)' in entry 'Scheeringa2011' is invalid - run biber with '--validate_datamodel' for details.
-[4019] Utils.pm:193> WARN - ISBN '1471-0048' in entry 'Engel2001' is invalid - run biber with '--validate_datamodel' for details.
-[4026] Utils.pm:193> WARN - ISBN 'http://dx.doi.org/10.1016/j.neuron.2015.09.034' in entry 'Fries2015' is invalid - run biber with '--validate_datamodel' for details.
-[4036] Utils.pm:193> WARN - ISBN '1471-003X' in entry 'Salinas2001' is invalid - run biber with '--validate_datamodel' for details.
-[4041] Utils.pm:193> WARN - ISBN 'ISSN{\~{}}{\~{}}2661673p' in entry 'Sejnowski2006' is invalid - run biber with '--validate_datamodel' for details.
-[4051] Utils.pm:193> WARN - ISBN '1471-003X (Print)$\backslash$r1471-003x' in entry 'Varela2001' is invalid - run biber with '--validate_datamodel' for details.
-[4070] Utils.pm:193> WARN - ISBN '1047-3211 (Print)' in entry 'Siegel2007' is invalid - run biber with '--validate_datamodel' for details.
-[4090] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'DeLange2013' is invalid - run biber with '--validate_datamodel' for details.
-[4097] Utils.pm:193> WARN - ISBN '0743-3808' in entry 'Eimer1998' is invalid - run biber with '--validate_datamodel' for details.
-[4118] Utils.pm:193> WARN - ISBN '1095-5623 (Electronic)$\backslash$n0010-0285 (Linking)' in entry 'Brown2008' is invalid - run biber with '--validate_datamodel' for details.
-[4131] Utils.pm:193> WARN - ISBN 'ISSN{\~{}}{\~{}}22219475' in entry 'Roitman2002' is invalid - run biber with '--validate_datamodel' for details.
-[4137] Utils.pm:193> WARN - ISBN '0033-295X (Print)$\backslash$n0033-295X (Linking)' in entry 'Usher2001' is invalid - run biber with '--validate_datamodel' for details.
-[4159] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Filimon2013' is invalid - run biber with '--validate_datamodel' for details.
-[4175] Utils.pm:193> WARN - ISBN '1939-1455(Electronic);0033-2909(Print)' in entry 'Nieuwenhuis2005' is invalid - run biber with '--validate_datamodel' for details.
-[4193] Utils.pm:193> WARN - ISBN '0036-8075 (Print)$\backslash$n0036-8075 (Linking)' in entry 'Hillyard1971' is invalid - run biber with '--validate_datamodel' for details.
-[4207] Utils.pm:193> WARN - ISBN '0031-5117' in entry 'Squires1973' is invalid - run biber with '--validate_datamodel' for details.
-[4231] Utils.pm:193> WARN - ISBN '1460-2199 (Electronic)$\backslash$r1047-3211 (Linking)' in entry 'Hebart2016' is invalid - run biber with '--validate_datamodel' for details.
-[4247] Utils.pm:193> WARN - ISBN '0028-0836 (Print)$\backslash$r0028-0836 (Linking)' in entry 'Epstein1998' is invalid - run biber with '--validate_datamodel' for details.
-[4258] Utils.pm:193> WARN - ISBN '1364-6613 (Print)' in entry 'Haxby2000' is invalid - run biber with '--validate_datamodel' for details.
-[4278] Utils.pm:193> WARN - ISBN '0027-8424' in entry 'Ishai1999' is invalid - run biber with '--validate_datamodel' for details.
-[4286] Utils.pm:193> WARN - ISBN '0270647415292401' in entry 'Kanwisher1997' is invalid - run biber with '--validate_datamodel' for details.
-[4298] Utils.pm:193> WARN - ISBN '0066-4278 (Print)$\backslash$r0066-4278 (Linking)' in entry 'Logothetis2004' is invalid - run biber with '--validate_datamodel' for details.
-[4309] Utils.pm:193> WARN - ISBN '0898-929X' in entry 'McCarthy1997' is invalid - run biber with '--validate_datamodel' for details.
-[4320] Utils.pm:193> WARN - ISBN '0027-8424 (Print)' in entry 'Heekeren2006' is invalid - run biber with '--validate_datamodel' for details.
-[4329] Utils.pm:193> WARN - ISBN '1879-0445 (Electronic)$\backslash$r0960-9822 (Linking)' in entry 'Philiastides2011' is invalid - run biber with '--validate_datamodel' for details.
-[4341] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$n0270-6474 (Linking)' in entry 'Ho2009' is invalid - run biber with '--validate_datamodel' for details.
-[4351] Utils.pm:193> WARN - ISBN '1522-1598 (Electronic)$\backslash$n0022-3077 (Linking)' in entry 'Kayser2010' is invalid - run biber with '--validate_datamodel' for details.
-[4374] Utils.pm:193> WARN - ISBN '1522-1598 (Electronic)$\backslash$r0022-3077 (Linking)' in entry 'Liu2011' is invalid - run biber with '--validate_datamodel' for details.
-[4391] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$r0896-6273 (Linking)' in entry 'Hanks2017' is invalid - run biber with '--validate_datamodel' for details.
-[4407] Utils.pm:193> WARN - ISBN '1863-2653' in entry 'Menon2010' is invalid - run biber with '--validate_datamodel' for details.
-[4413] Utils.pm:193> WARN - ISBN '0270-6474' in entry 'Zaksas2006' is invalid - run biber with '--validate_datamodel' for details.
-[4419] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Hussar2012' is invalid - run biber with '--validate_datamodel' for details.
-[4434] Utils.pm:193> WARN - ISBN '0270-6474' in entry 'Wimmer2016' is invalid - run biber with '--validate_datamodel' for details.
-[4448] Utils.pm:193> WARN - ISBN '1879-307X (Electronic) 1364-6613 (Linking)' in entry 'Roux2014' is invalid - run biber with '--validate_datamodel' for details.
-[4482] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r1529-2401 (Linking)' in entry 'Bauer2006' is invalid - run biber with '--validate_datamodel' for details.
-[4533] Utils.pm:193> WARN - ISBN '0033-2909' in entry 'Hellstrom1985' is invalid - run biber with '--validate_datamodel' for details.
-[4539] Utils.pm:193> WARN - ISBN '1873-6882 (Electronic)$\backslash$r0959-4388 (Linking)' in entry 'Engel2010' is invalid - run biber with '--validate_datamodel' for details.
-[4559] Utils.pm:193> WARN - ISBN '0899-7667' in entry 'Hangya2016' is invalid - run biber with '--validate_datamodel' for details.
-[4567] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$r0896-6273 (Linking)' in entry 'Sanders2016' is invalid - run biber with '--validate_datamodel' for details.
-[4575] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Spitzer2014' is invalid - run biber with '--validate_datamodel' for details.
-[4586] Utils.pm:193> WARN - ISBN '0929-5313' in entry 'Dehghani2010' is invalid - run biber with '--validate_datamodel' for details.
-[4594] Utils.pm:193> WARN - ISBN '10.1186/1744-9081-3-62' in entry 'Demanuele2007' is invalid - run biber with '--validate_datamodel' for details.
-[4624] Utils.pm:193> WARN - ISBN '1097-0193 (Electronic)$\backslash$r1065-9471 (Linking)' in entry 'Goldenholz2009' is invalid - run biber with '--validate_datamodel' for details.
-[4641] Utils.pm:193> WARN - ISBN '1573-6792 (Electronic)$\backslash$r0896-0267 (Linking)' in entry 'Ahlfors2010' is invalid - run biber with '--validate_datamodel' for details.
-[4665] Utils.pm:193> WARN - ISBN '1879-0445 (Electronic)$\backslash$r0960-9822 (Linking)' in entry 'Eger2009' is invalid - run biber with '--validate_datamodel' for details.
-[4680] Utils.pm:193> WARN - ISBN '1879-307X (Electronic)$\backslash$r1364-6613 (Linking)' in entry 'Jacob2012' is invalid - run biber with '--validate_datamodel' for details.
-[4709] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Vergara2016' is invalid - run biber with '--validate_datamodel' for details.
-[4728] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Todd2004' is invalid - run biber with '--validate_datamodel' for details.
-[4745] Utils.pm:193> WARN - ISBN '1530-7026' in entry 'Todd2005' is invalid - run biber with '--validate_datamodel' for details.
-[4754] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Vogel2004' is invalid - run biber with '--validate_datamodel' for details.
-[4760] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Xu2006' is invalid - run biber with '--validate_datamodel' for details.
-[4782] Utils.pm:193> WARN - ISBN '0013-4694 (Print)' in entry 'Chatrian1959' is invalid - run biber with '--validate_datamodel' for details.
-[4794] Utils.pm:193> WARN - ISBN '0424-8155 (Print)' in entry 'Gastaut1954' is invalid - run biber with '--validate_datamodel' for details.
-[4803] Utils.pm:193> WARN - ISBN '1095-9572 (Electronic)$\backslash$r1053-8119 (Linking)' in entry 'Naeem2012' is invalid - run biber with '--validate_datamodel' for details.
-[4808] Utils.pm:193> WARN - ISBN '0165-0173, 0165-0173' in entry 'Pineda2005' is invalid - run biber with '--validate_datamodel' for details.
-[4814] Utils.pm:193> WARN - ISBN '1873-7544 (Electronic)$\backslash$r0306-4522 (Linking)' in entry 'Anderson2011' is invalid - run biber with '--validate_datamodel' for details.
-[4832] Utils.pm:193> WARN - ISBN '1879-0445 (Electronic) 0960-9822 (Linking)' in entry 'Fuentemilla2010' is invalid - run biber with '--validate_datamodel' for details.
-[4844] Utils.pm:193> WARN - ISBN '0166-2236 (Print)$\backslash$r0166-2236 (Linking)' in entry 'Jensen2005' is invalid - run biber with '--validate_datamodel' for details.
-[4849] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Lisman1999' is invalid - run biber with '--validate_datamodel' for details.
-[4862] Utils.pm:193> WARN - ISBN '0036-8075' in entry 'Lisman1995' is invalid - run biber with '--validate_datamodel' for details.
-[4877] Utils.pm:193> WARN - ISBN '0096-1523 (Print)' in entry 'Awh1998' is invalid - run biber with '--validate_datamodel' for details.
-[4888] Utils.pm:193> WARN - ISBN '1460-9568' in entry 'Rainer2002' is invalid - run biber with '--validate_datamodel' for details.
-[4920] Utils.pm:193> WARN - ISBN '1530-8898$\backslash$r0898-929X' in entry 'Lewis-Peacock2012' is invalid - run biber with '--validate_datamodel' for details.
-[4943] Utils.pm:193> WARN - ISBN '1546-1726 (Electronic) 1097-6256 (Linking)' in entry 'Wolff2017' is invalid - run biber with '--validate_datamodel' for details.
-[4967] Utils.pm:193> WARN - ISBN '1364-6613' in entry 'Arnal2012' is invalid - run biber with '--validate_datamodel' for details.
-[5002] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic) 0896-6273 (Linking)' in entry 'Bastos2015' is invalid - run biber with '--validate_datamodel' for details.
-[5014] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$r0896-6273 (Linking)' in entry 'Michalareas2016' is invalid - run biber with '--validate_datamodel' for details.
-[5022] Utils.pm:193> WARN - ISBN '1471-0048 (Electronic)$\backslash$r1471-003X (Linking)' in entry 'Siegel2012' is invalid - run biber with '--validate_datamodel' for details.
-[5029] Utils.pm:193> WARN - ISBN '1522-1210 (Electronic)$\backslash$r0031-9333 (Linking)' in entry 'Wang2010' is invalid - run biber with '--validate_datamodel' for details.
-[5033] Utils.pm:193> WARN - ISBN '0959-4388' in entry 'Jones2016' is invalid - run biber with '--validate_datamodel' for details.
-[5040] Utils.pm:193> WARN - ISBN '1546-1726 (Electronic)$\backslash$r1097-6256 (Linking)' in entry 'Bettencourt2015' is invalid - run biber with '--validate_datamodel' for details.
-[5051] Utils.pm:193> WARN - ISBN '1364-6613' in entry 'Christophel2017' is invalid - run biber with '--validate_datamodel' for details.
-[5061] Utils.pm:193> WARN - ISBN '1364-6613' in entry 'Sreenivasan2014' is invalid - run biber with '--validate_datamodel' for details.
-[5085] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$n0270-6474 (Linking)' in entry 'Christophel2012' is invalid - run biber with '--validate_datamodel' for details.
-[5094] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$n0270-6474 (Linking)' in entry 'Emrich2013' is invalid - run biber with '--validate_datamodel' for details.
-[5103] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$n0270-6474 (Linking)' in entry 'Riggall2012' is invalid - run biber with '--validate_datamodel' for details.
-[5143] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Eriksson2015' is invalid - run biber with '--validate_datamodel' for details.
-[5152] Utils.pm:193> WARN - ISBN '1364-6613' in entry 'Fuster2012' is invalid - run biber with '--validate_datamodel' for details.
-[5161] Utils.pm:193> WARN - ISBN '0149-7634' in entry 'Zimmer2008' is invalid - run biber with '--validate_datamodel' for details.
-[5191] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic) 0270-6474 (Linking)' in entry 'Ding2010' is invalid - run biber with '--validate_datamodel' for details.
-[5211] Utils.pm:193> WARN - ISBN '1095-9572' in entry 'Cole2010' is invalid - run biber with '--validate_datamodel' for details.
-[5230] Utils.pm:193> WARN - ISBN '1546-1726 (Electronic)$\backslash$n1097-6256 (Linking)' in entry 'Cole2013' is invalid - run biber with '--validate_datamodel' for details.
-[5245] Utils.pm:193> WARN - ISBN '1053-8119' in entry 'Cole2007' is invalid - run biber with '--validate_datamodel' for details.
-[5251] Utils.pm:193> WARN - ISBN '1364-6613' in entry 'Duncan2010' is invalid - run biber with '--validate_datamodel' for details.
-[5263] Utils.pm:193> WARN - ISBN '1047-3211, 1460-2199' in entry 'Muhle-Karbe2017' is invalid - run biber with '--validate_datamodel' for details.
-[5277] Utils.pm:193> WARN - ISBN '1097-6256 (Print)$\backslash$r1097-6256 (Linking)' in entry 'Kim1999' is invalid - run biber with '--validate_datamodel' for details.
-[5284] Utils.pm:193> WARN - ISBN '0270-6474 (Print) 0270-6474 (Linking)' in entry 'Shadlen1998' is invalid - run biber with '--validate_datamodel' for details.
-[5289] Utils.pm:193> WARN - ISBN '0959-4388 (Print)$\backslash$n0959-4388 (Linking)' in entry 'Laughlin2001' is invalid - run biber with '--validate_datamodel' for details.
-[5293] Utils.pm:193> WARN - ISBN '1879-2782 (Electronic)$\backslash$r0893-6080 (Linking)' in entry 'Durstewitz2009' is invalid - run biber with '--validate_datamodel' for details.
-[5304] Utils.pm:193> WARN - ISBN '1047-3211 (Print) 1047-3211 (Linking)' in entry 'Compte2000' is invalid - run biber with '--validate_datamodel' for details.
-[5331] Utils.pm:193> WARN - ISBN '1932-6203 (Electronic)$\backslash$r1932-6203 (Linking)' in entry 'Verduzco-Flores2009' is invalid - run biber with '--validate_datamodel' for details.
-[5372] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$r0896-6273 (Linking)' in entry 'Wang2013' is invalid - run biber with '--validate_datamodel' for details.
-[5403] Utils.pm:193> WARN - ISBN '1097-6256 (Print)' in entry 'Fujisawa2008' is invalid - run biber with '--validate_datamodel' for details.
-[5410] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Parmesan2003' is invalid - run biber with '--validate_datamodel' for details.
-[5416] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Horst\AppData\Local\Temp\RFSWnWlchu\library.bib_8352.utf8, line 6, warning: 172 characters of junk seen at toplevel
-[6328] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[6328] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[6328] Biber.pm:3921> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'de-DE'
-[6328] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
-[6949] bbl.pm:636> INFO - Writing 'Dissertation-vLautz.bbl' with encoding 'UTF-8'
-[7466] bbl.pm:739> INFO - Output to Dissertation-vLautz.bbl
-[7467] Biber.pm:110> INFO - WARNINGS: 195
+[109] biber-MSWIN64:315> INFO - === 
+[288] Biber.pm:371> INFO - Reading 'Dissertation-vLautz.bcf'
+[649] Biber.pm:889> INFO - Found 237 citekeys in bib section 0
+[681] Biber.pm:4093> INFO - Processing section 0
+[753] Biber.pm:4254> INFO - Looking for bibtex format file 'library.bib' for section 0
+[755] bibtex.pm:1477> INFO - Reading ascii input as UTF-8
+[892] bibtex.pm:1523> INFO - LaTeX decoding ...
+[2816] bibtex.pm:1340> INFO - Found BibTeX data source 'library.bib'
+[3088] Utils.pm:193> WARN - ISBN '0879758104 9780879758103' in entry 'Epicurus1940' is invalid - run biber with '--validate_datamodel' for details.
+[3139] Utils.pm:193> WARN - ISBN '1939-1471' in entry 'Tanner1954' is invalid - run biber with '--validate_datamodel' for details.
+[3147] Utils.pm:193> WARN - ISBN '0147-006X' in entry 'Gold2007' is invalid - run biber with '--validate_datamodel' for details.
+[3178] Utils.pm:193> WARN - ISBN '0022-3077' in entry 'Mountcastle1969' is invalid - run biber with '--validate_datamodel' for details.
+[3187] Utils.pm:193> WARN - ISBN '0036-8075 (Print)$\backslash$r0036-8075 (Linking)' in entry 'Mountcastle1967' is invalid - run biber with '--validate_datamodel' for details.
+[3196] Utils.pm:193> WARN - ISBN '0270-6474 (Print)$\backslash$r0270-6474' in entry 'Mountcastle1990' is invalid - run biber with '--validate_datamodel' for details.
+[3202] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$r0022-3077' in entry 'Merzenich1969' is invalid - run biber with '--validate_datamodel' for details.
+[3209] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$r0022-3077' in entry 'Talbot1968' is invalid - run biber with '--validate_datamodel' for details.
+[3219] Utils.pm:193> WARN - ISBN '1053-8119 (Print)' in entry 'Nangini2006' is invalid - run biber with '--validate_datamodel' for details.
+[3226] Utils.pm:193> WARN - ISBN '1388-2457 (Print)' in entry 'Tobimatsu1999' is invalid - run biber with '--validate_datamodel' for details.
+[3246] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$n0896-6273 (Linking)' in entry 'Hernandez2010' is invalid - run biber with '--validate_datamodel' for details.
+[3258] Utils.pm:193> WARN - ISBN '0027-8424' in entry 'Hernandez2000' is invalid - run biber with '--validate_datamodel' for details.
+[3284] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$n0896-6273 (Linking)' in entry 'Lemus2010' is invalid - run biber with '--validate_datamodel' for details.
+[3296] Utils.pm:193> WARN - ISBN '1097-6256 (Print)' in entry 'Luna2005' is invalid - run biber with '--validate_datamodel' for details.
+[3305] Utils.pm:193> WARN - ISBN '0270-6474 (Print)$\backslash$r0270-6474' in entry 'Salinas2000' is invalid - run biber with '--validate_datamodel' for details.
+[3313] Utils.pm:193> WARN - ISBN '0954-898X (Print)$\backslash$r0954-898X (Linking)' in entry 'Kepecs2003' is invalid - run biber with '--validate_datamodel' for details.
+[3314] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)' in entry 'Kepecs2002' is invalid - run biber with '--validate_datamodel' for details.
+[3320] Utils.pm:193> WARN - ISBN '1471-003X' in entry 'Krahe2004' is invalid - run biber with '--validate_datamodel' for details.
+[3338] Utils.pm:193> WARN - ISBN '0022-3077 (Print)' in entry 'Reinagel1999' is invalid - run biber with '--validate_datamodel' for details.
+[3344] Utils.pm:193> WARN - ISBN '1873-5118 (Electronic)$\backslash$r0301-0082 (Linking)' in entry 'Romo2013' is invalid - run biber with '--validate_datamodel' for details.
+[3358] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Lundqvist2016' is invalid - run biber with '--validate_datamodel' for details.
+[3367] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Romo1999' is invalid - run biber with '--validate_datamodel' for details.
+[3375] Utils.pm:193> WARN - ISBN '0022-3077 (Print) 0022-3077 (Linking)' in entry 'Funahashi1989' is invalid - run biber with '--validate_datamodel' for details.
+[3384] Utils.pm:193> WARN - ISBN '0036-8075' in entry 'Fuster1971' is invalid - run biber with '--validate_datamodel' for details.
+[3389] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Goldman-Rakic1995' is invalid - run biber with '--validate_datamodel' for details.
+[3396] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Barak2010' is invalid - run biber with '--validate_datamodel' for details.
+[3408] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Fiebig2017' is invalid - run biber with '--validate_datamodel' for details.
+[3419] Utils.pm:193> WARN - ISBN '2041-1723 (Electronic)2041-1723 (Linking)' in entry 'Lundqvist2018a' is invalid - run biber with '--validate_datamodel' for details.
+[3427] Utils.pm:193> WARN - ISBN '0036-8075' in entry 'Mongillo2008' is invalid - run biber with '--validate_datamodel' for details.
+[3432] Utils.pm:193> WARN - ISBN '1879-307X (Electronic)$\backslash$r1364-6613 (Linking)' in entry 'Stokes2015' is invalid - run biber with '--validate_datamodel' for details.
+[3473] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Spitzer2010' is invalid - run biber with '--validate_datamodel' for details.
+[3484] Utils.pm:193> WARN - ISBN '0027-8424' in entry 'Spitzer2011' is invalid - run biber with '--validate_datamodel' for details.
+[3502] Utils.pm:193> WARN - ISBN '1471-0048' in entry 'Pasternak2005' is invalid - run biber with '--validate_datamodel' for details.
+[3509] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$r0896-6273 (Linking)' in entry 'Whittingstall2009' is invalid - run biber with '--validate_datamodel' for details.
+[3516] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$n0896-6273 (Linking)' in entry 'Cromer2010' is invalid - run biber with '--validate_datamodel' for details.
+[3525] Utils.pm:193> WARN - ISBN '0306-4522 (Print)' in entry 'Durstewitz2006' is invalid - run biber with '--validate_datamodel' for details.
+[3537] Utils.pm:193> WARN - ISBN '0306-4522' in entry 'Shafi2007' is invalid - run biber with '--validate_datamodel' for details.
+[3550] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$n0896-6273 (Linking)' in entry 'Stokes2013' is invalid - run biber with '--validate_datamodel' for details.
+[3557] Utils.pm:193> WARN - ISBN '1879-307X (Electronic)$\backslash$r1364-6613 (Linking)' in entry 'Stokes2016' is invalid - run biber with '--validate_datamodel' for details.
+[3563] Utils.pm:193> WARN - ISBN '0013-4694 (Print)$\backslash$n0013-4694 (Linking)' in entry 'Pfurtscheller1975' is invalid - run biber with '--validate_datamodel' for details.
+[3571] Utils.pm:193> WARN - ISBN '1097-0193' in entry 'Haegens2010' is invalid - run biber with '--validate_datamodel' for details.
+[3580] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Hernandez2002' is invalid - run biber with '--validate_datamodel' for details.
+[3601] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Jun2010' is invalid - run biber with '--validate_datamodel' for details.
+[3608] Utils.pm:193> WARN - ISBN '0896-6273 (Print)$\backslash$r0896-6273 (Linking)' in entry 'Romo2004' is invalid - run biber with '--validate_datamodel' for details.
+[3632] Utils.pm:193> WARN - ISBN '1091-6490 (Electronic)$\backslash$r0027-8424 (Linking)' in entry 'Haegens2011' is invalid - run biber with '--validate_datamodel' for details.
+[3671] Utils.pm:193> WARN - ISBN '0013-4694 (Print)$\backslash$r0013-4694 (Linking)' in entry 'Pfurtscheller1981' is invalid - run biber with '--validate_datamodel' for details.
+[3687] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Chapman1964' is invalid - run biber with '--validate_datamodel' for details.
+[3706] Utils.pm:193> WARN - ISBN '0013-4694 (Print)$\backslash$r0013-4694 (Linking)' in entry 'Donchin1967' is invalid - run biber with '--validate_datamodel' for details.
+[3718] Utils.pm:193> WARN - ISBN '0031-5117$\backslash$r1532-5962' in entry 'Rohrbaugh1974' is invalid - run biber with '--validate_datamodel' for details.
+[3733] Utils.pm:193> WARN - ISBN '1460-9568; 0953-816X' in entry 'Twomey2015' is invalid - run biber with '--validate_datamodel' for details.
+[3754] Utils.pm:193> WARN - ISBN '0960-9822' in entry 'Donner2009' is invalid - run biber with '--validate_datamodel' for details.
+[3794] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$n0270-6474 (Linking)' in entry 'Kelly2013' is invalid - run biber with '--validate_datamodel' for details.
+[3800] Utils.pm:193> WARN - ISBN '1769-7115' in entry 'Kelly2015' is invalid - run biber with '--validate_datamodel' for details.
+[3808] Utils.pm:193> WARN - ISBN '1546-1726 (Electronic) 1097-6256 (Linking)' in entry 'OConnell2012' is invalid - run biber with '--validate_datamodel' for details.
+[3831] Utils.pm:193> WARN - ISBN '1879-307X (Electronic)$\backslash$r1364-6613 (Linking)' in entry 'Philiastides2014' is invalid - run biber with '--validate_datamodel' for details.
+[3837] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Shadlen2013' is invalid - run biber with '--validate_datamodel' for details.
+[3845] Utils.pm:193> WARN - ISBN '0012-1606' in entry 'OConnell2018' is invalid - run biber with '--validate_datamodel' for details.
+[3856] Utils.pm:193> WARN - ISBN '0270-6474' in entry 'Britten1992' is invalid - run biber with '--validate_datamodel' for details.
+[3868] Utils.pm:193> WARN - ISBN '0952-5238 (Print)$\backslash$n0952-5238 (Linking)' in entry 'Britten1996' is invalid - run biber with '--validate_datamodel' for details.
+[3881] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$r0022-3077 (Linking)' in entry 'Baker1981' is invalid - run biber with '--validate_datamodel' for details.
+[3888] Utils.pm:193> WARN - ISBN '0021-9967 (Print)$\backslash$r0021-9967 (Linking)' in entry 'VanEssen1981' is invalid - run biber with '--validate_datamodel' for details.
+[3901] Utils.pm:193> WARN - ISBN '0022-3751 (Print)$\backslash$r0022-3751 (Linking)' in entry 'Zeki1974' is invalid - run biber with '--validate_datamodel' for details.
+[3908] Utils.pm:193> WARN - ISBN '1097-6256 (Print)' in entry 'Ditterich2003' is invalid - run biber with '--validate_datamodel' for details.
+[3926] Utils.pm:193> WARN - ISBN '0028-0836 (Print)$\backslash$r0028-0836' in entry 'Salzman1990' is invalid - run biber with '--validate_datamodel' for details.
+[3951] Utils.pm:193> WARN - ISBN '0270-6474 (Print)$\backslash$r0270-6474' in entry 'Salzman1992' is invalid - run biber with '--validate_datamodel' for details.
+[3962] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Katz2016' is invalid - run biber with '--validate_datamodel' for details.
+[3968] Utils.pm:193> WARN - ISBN '1047-3211 (Print)$\backslash$n1047-3211 (Linking)' in entry 'Felleman1991' is invalid - run biber with '--validate_datamodel' for details.
+[3976] Utils.pm:193> WARN - ISBN '0036-8075' in entry 'Hanes1996' is invalid - run biber with '--validate_datamodel' for details.
+[3988] Utils.pm:193> WARN - ISBN '0270-6474 (Print)$\backslash$n0270-6474 (Linking)' in entry 'Schall1995' is invalid - run biber with '--validate_datamodel' for details.
+[3999] Utils.pm:193> WARN - ISBN '0270-6474 (Print)$\backslash$n0270-6474 (Linking)' in entry 'Schall1995a' is invalid - run biber with '--validate_datamodel' for details.
+[4007] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$n0022-3077 (Linking)' in entry 'Thompson1996' is invalid - run biber with '--validate_datamodel' for details.
+[4017] Utils.pm:193> WARN - ISBN '0036-8075 (Print)$\backslash$r0036-8075 (Linking)' in entry 'VanEssen1992' is invalid - run biber with '--validate_datamodel' for details.
+[4023] Utils.pm:193> WARN - ISBN '0022-3077 (Print) 0022-3077 (Linking)' in entry 'Burman1997' is invalid - run biber with '--validate_datamodel' for details.
+[4046] Utils.pm:193> WARN - ISBN '0027-8424' in entry 'Moore2001' is invalid - run biber with '--validate_datamodel' for details.
+[4058] Utils.pm:193> WARN - ISBN '0028-0836 (Print)' in entry 'Moore2003' is invalid - run biber with '--validate_datamodel' for details.
+[4071] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$n0022-3077 (Linking)' in entry 'Robinson1969' is invalid - run biber with '--validate_datamodel' for details.
+[4088] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)' in entry 'Gold2000' is invalid - run biber with '--validate_datamodel' for details.
+[4116] Utils.pm:193> WARN - ISBN '1460-2199 (Electronic)$\backslash$n1047-3211 (Linking)' in entry 'Ding2012' is invalid - run biber with '--validate_datamodel' for details.
+[4137] Utils.pm:193> WARN - ISBN '0959-4388 (Print)$\backslash$n0959-4388 (Linking)' in entry 'Andersen1992' is invalid - run biber with '--validate_datamodel' for details.
+[4150] Utils.pm:193> WARN - ISBN '0021-9967 (Print)' in entry 'Blatt1990' is invalid - run biber with '--validate_datamodel' for details.
+[4156] Utils.pm:193> WARN - ISBN '0021-9967 (Print)$\backslash$r0021-9967 (Linking)' in entry 'Lewis2000' is invalid - run biber with '--validate_datamodel' for details.
+[4168] Utils.pm:193> WARN - ISBN '0021-9967 (Print)$\backslash$n0021-9967 (Linking)' in entry 'Andersen1990' is invalid - run biber with '--validate_datamodel' for details.
+[4180] Utils.pm:193> WARN - ISBN '0014-4819 (Print)' in entry 'Andersen1987' is invalid - run biber with '--validate_datamodel' for details.
+[4192] Utils.pm:193> WARN - ISBN '0022-3077 (Print)$\backslash$r0022-3077 (Linking)' in entry 'Barash1991' is invalid - run biber with '--validate_datamodel' for details.
+[4203] Utils.pm:193> WARN - ISBN '0014-4819 (Print)$\backslash$r0014-4819 (Linking)' in entry 'Gnadt1988' is invalid - run biber with '--validate_datamodel' for details.
+[4212] Utils.pm:193> WARN - ISBN '0147-006X (Print)$\backslash$r0147-006X (Linking)' in entry 'Andersen2002' is invalid - run biber with '--validate_datamodel' for details.
+[4220] Utils.pm:193> WARN - ISBN '0027-8424 (Print)$\backslash$r0027-8424 (Linking)' in entry 'Shadlen1996' is invalid - run biber with '--validate_datamodel' for details.
+[4226] Utils.pm:193> WARN - ISBN '0022-3077' in entry 'Shadlen2001' is invalid - run biber with '--validate_datamodel' for details.
+[4236] Utils.pm:193> WARN - ISBN 'ISSN{\~{}}{\~{}}22219475' in entry 'Roitman2002a' is invalid - run biber with '--validate_datamodel' for details.
+[4244] Utils.pm:193> WARN - ISBN '1097-6256 (Print)$\backslash$n1097-6256 (Linking)' in entry 'Hanks2006' is invalid - run biber with '--validate_datamodel' for details.
+[4250] Utils.pm:193> WARN - ISBN '0270-6474' in entry 'Huk2005' is invalid - run biber with '--validate_datamodel' for details.
+[4273] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Bennur2011' is invalid - run biber with '--validate_datamodel' for details.
+[4297] Utils.pm:193> WARN - ISBN '1095-9203 (Electronic)$\backslash$r0036-8075 (Linking)' in entry 'Siegel2015' is invalid - run biber with '--validate_datamodel' for details.
+[4310] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)' in entry 'Donner2008' is invalid - run biber with '--validate_datamodel' for details.
+[4320] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Nienborg2009' is invalid - run biber with '--validate_datamodel' for details.
+[4333] Utils.pm:193> WARN - ISBN '1662-5161 (Electronic)$\backslash$n1662-5161 (Linking)' in entry 'Siegel2011' is invalid - run biber with '--validate_datamodel' for details.
+[4349] Utils.pm:193> WARN - ISBN '0147-006X$\backslash$n978-0-8243-2435-3' in entry 'Buzsaki2012' is invalid - run biber with '--validate_datamodel' for details.
+[4368] Utils.pm:193> WARN - ISBN '1932-6203 (Electronic)$\backslash$n1932-6203 (Linking)' in entry 'Jann2010' is invalid - run biber with '--validate_datamodel' for details.
+[4395] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Keller2013' is invalid - run biber with '--validate_datamodel' for details.
+[4436] Utils.pm:193> WARN - ISBN '0028-0836 (Print)$\backslash$r0028-0836 (Linking)' in entry 'Logothetis2001' is invalid - run biber with '--validate_datamodel' for details.
+[4452] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$r0896-6273 (Linking)' in entry 'Scheeringa2011' is invalid - run biber with '--validate_datamodel' for details.
+[4460] Utils.pm:193> WARN - ISBN '1471-0048' in entry 'Engel2001' is invalid - run biber with '--validate_datamodel' for details.
+[4466] Utils.pm:193> WARN - ISBN 'http://dx.doi.org/10.1016/j.neuron.2015.09.034' in entry 'Fries2015' is invalid - run biber with '--validate_datamodel' for details.
+[4474] Utils.pm:193> WARN - ISBN '1471-003X' in entry 'Salinas2001' is invalid - run biber with '--validate_datamodel' for details.
+[4478] Utils.pm:193> WARN - ISBN 'ISSN{\~{}}{\~{}}2661673p' in entry 'Sejnowski2006' is invalid - run biber with '--validate_datamodel' for details.
+[4490] Utils.pm:193> WARN - ISBN '1471-003X (Print)$\backslash$r1471-003x' in entry 'Varela2001' is invalid - run biber with '--validate_datamodel' for details.
+[4503] Utils.pm:193> WARN - ISBN '1047-3211 (Print)' in entry 'Siegel2007' is invalid - run biber with '--validate_datamodel' for details.
+[4530] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'DeLange2013' is invalid - run biber with '--validate_datamodel' for details.
+[4534] Utils.pm:193> WARN - ISBN '0743-3808' in entry 'Eimer1998' is invalid - run biber with '--validate_datamodel' for details.
+[4554] Utils.pm:193> WARN - ISBN '1095-5623 (Electronic)$\backslash$n0010-0285 (Linking)' in entry 'Brown2008' is invalid - run biber with '--validate_datamodel' for details.
+[4560] Utils.pm:193> WARN - ISBN 'ISSN{\~{}}{\~{}}22219475' in entry 'Roitman2002' is invalid - run biber with '--validate_datamodel' for details.
+[4572] Utils.pm:193> WARN - ISBN '0033-295X (Print)$\backslash$n0033-295X (Linking)' in entry 'Usher2001' is invalid - run biber with '--validate_datamodel' for details.
+[4605] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Filimon2013' is invalid - run biber with '--validate_datamodel' for details.
+[4619] Utils.pm:193> WARN - ISBN '1939-1455(Electronic);0033-2909(Print)' in entry 'Nieuwenhuis2005' is invalid - run biber with '--validate_datamodel' for details.
+[4629] Utils.pm:193> WARN - ISBN '0036-8075 (Print)$\backslash$n0036-8075 (Linking)' in entry 'Hillyard1971' is invalid - run biber with '--validate_datamodel' for details.
+[4636] Utils.pm:193> WARN - ISBN '0031-5117' in entry 'Squires1973' is invalid - run biber with '--validate_datamodel' for details.
+[4652] Utils.pm:193> WARN - ISBN '1460-2199 (Electronic)$\backslash$r1047-3211 (Linking)' in entry 'Hebart2016' is invalid - run biber with '--validate_datamodel' for details.
+[4668] Utils.pm:193> WARN - ISBN '0028-0836 (Print)$\backslash$r0028-0836 (Linking)' in entry 'Epstein1998' is invalid - run biber with '--validate_datamodel' for details.
+[4676] Utils.pm:193> WARN - ISBN '1364-6613 (Print)' in entry 'Haxby2000' is invalid - run biber with '--validate_datamodel' for details.
+[4687] Utils.pm:193> WARN - ISBN '0027-8424' in entry 'Ishai1999' is invalid - run biber with '--validate_datamodel' for details.
+[4703] Utils.pm:193> WARN - ISBN '0270647415292401' in entry 'Kanwisher1997' is invalid - run biber with '--validate_datamodel' for details.
+[4716] Utils.pm:193> WARN - ISBN '0066-4278 (Print)$\backslash$r0066-4278 (Linking)' in entry 'Logothetis2004' is invalid - run biber with '--validate_datamodel' for details.
+[4733] Utils.pm:193> WARN - ISBN '0898-929X' in entry 'McCarthy1997' is invalid - run biber with '--validate_datamodel' for details.
+[4760] Utils.pm:193> WARN - ISBN '0027-8424 (Print)' in entry 'Heekeren2006' is invalid - run biber with '--validate_datamodel' for details.
+[4778] Utils.pm:193> WARN - ISBN '1879-0445 (Electronic)$\backslash$r0960-9822 (Linking)' in entry 'Philiastides2011' is invalid - run biber with '--validate_datamodel' for details.
+[4798] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$n0270-6474 (Linking)' in entry 'Ho2009' is invalid - run biber with '--validate_datamodel' for details.
+[4818] Utils.pm:193> WARN - ISBN '1522-1598 (Electronic)$\backslash$n0022-3077 (Linking)' in entry 'Kayser2010' is invalid - run biber with '--validate_datamodel' for details.
+[4834] Utils.pm:193> WARN - ISBN '1522-1598 (Electronic)$\backslash$r0022-3077 (Linking)' in entry 'Liu2011' is invalid - run biber with '--validate_datamodel' for details.
+[4848] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$r0896-6273 (Linking)' in entry 'Hanks2017' is invalid - run biber with '--validate_datamodel' for details.
+[4856] Utils.pm:193> WARN - ISBN '1863-2653' in entry 'Menon2010' is invalid - run biber with '--validate_datamodel' for details.
+[4863] Utils.pm:193> WARN - ISBN '0270-6474' in entry 'Zaksas2006' is invalid - run biber with '--validate_datamodel' for details.
+[4869] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Hussar2012' is invalid - run biber with '--validate_datamodel' for details.
+[4880] Utils.pm:193> WARN - ISBN '0270-6474' in entry 'Wimmer2016' is invalid - run biber with '--validate_datamodel' for details.
+[4886] Utils.pm:193> WARN - ISBN '1879-307X (Electronic) 1364-6613 (Linking)' in entry 'Roux2014' is invalid - run biber with '--validate_datamodel' for details.
+[4909] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r1529-2401 (Linking)' in entry 'Bauer2006' is invalid - run biber with '--validate_datamodel' for details.
+[4919] Utils.pm:193> WARN - ISBN '0899-7667' in entry 'Hangya2016' is invalid - run biber with '--validate_datamodel' for details.
+[4933] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$r0896-6273 (Linking)' in entry 'Sanders2016' is invalid - run biber with '--validate_datamodel' for details.
+[4978] Utils.pm:193> WARN - ISBN '0033-2909' in entry 'Hellstrom1985' is invalid - run biber with '--validate_datamodel' for details.
+[4994] Utils.pm:193> WARN - ISBN '1873-6882 (Electronic)$\backslash$r0959-4388 (Linking)' in entry 'Engel2010' is invalid - run biber with '--validate_datamodel' for details.
+[5021] Utils.pm:193> WARN - ISBN '1047-3211' in entry 'Hanslmayr2009' is invalid - run biber with '--validate_datamodel' for details.
+[5054] Utils.pm:193> WARN - ISBN '0270-6474' in entry 'Tallon-Baudry1998' is invalid - run biber with '--validate_datamodel' for details.
+[5091] Utils.pm:193> WARN - ISBN '1097-6256' in entry 'Pesaran2002' is invalid - run biber with '--validate_datamodel' for details.
+[5102] Utils.pm:193> WARN - ISBN '0896-6273 (Print)' in entry 'Nieder2003' is invalid - run biber with '--validate_datamodel' for details.
+[5122] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$n0270-6474 (Linking)' in entry 'Christophel2012' is invalid - run biber with '--validate_datamodel' for details.
+[5136] Utils.pm:193> WARN - ISBN '1364-6613' in entry 'Christophel2017' is invalid - run biber with '--validate_datamodel' for details.
+[5174] Utils.pm:193> WARN - ISBN '1932-6203 (Electronic)$\backslash$r1932-6203 (Linking)' in entry 'Michels2010' is invalid - run biber with '--validate_datamodel' for details.
+[5194] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Hanslmayr2011' is invalid - run biber with '--validate_datamodel' for details.
+[5239] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$r0270-6474 (Linking)' in entry 'Spitzer2014' is invalid - run biber with '--validate_datamodel' for details.
+[5270] Utils.pm:193> WARN - ISBN '0929-5313' in entry 'Dehghani2010' is invalid - run biber with '--validate_datamodel' for details.
+[5284] Utils.pm:193> WARN - ISBN '10.1186/1744-9081-3-62' in entry 'Demanuele2007' is invalid - run biber with '--validate_datamodel' for details.
+[5303] Utils.pm:193> WARN - ISBN '1097-0193 (Electronic)$\backslash$r1065-9471 (Linking)' in entry 'Goldenholz2009' is invalid - run biber with '--validate_datamodel' for details.
+[5321] Utils.pm:193> WARN - ISBN '1573-6792 (Electronic)$\backslash$r0896-0267 (Linking)' in entry 'Ahlfors2010' is invalid - run biber with '--validate_datamodel' for details.
+[5340] Utils.pm:193> WARN - ISBN '1879-0445 (Electronic)$\backslash$r0960-9822 (Linking)' in entry 'Eger2009' is invalid - run biber with '--validate_datamodel' for details.
+[5357] Utils.pm:193> WARN - ISBN '1879-307X (Electronic)$\backslash$r1364-6613 (Linking)' in entry 'Jacob2012' is invalid - run biber with '--validate_datamodel' for details.
+[5369] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Vergara2016' is invalid - run biber with '--validate_datamodel' for details.
+[5384] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Todd2004' is invalid - run biber with '--validate_datamodel' for details.
+[5400] Utils.pm:193> WARN - ISBN '1530-7026' in entry 'Todd2005' is invalid - run biber with '--validate_datamodel' for details.
+[5411] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Vogel2004' is invalid - run biber with '--validate_datamodel' for details.
+[5422] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Xu2006' is invalid - run biber with '--validate_datamodel' for details.
+[5432] Utils.pm:193> WARN - ISBN '0013-4694 (Print)' in entry 'Chatrian1959' is invalid - run biber with '--validate_datamodel' for details.
+[5444] Utils.pm:193> WARN - ISBN '0424-8155 (Print)' in entry 'Gastaut1954' is invalid - run biber with '--validate_datamodel' for details.
+[5467] Utils.pm:193> WARN - ISBN '1095-9572 (Electronic)$\backslash$r1053-8119 (Linking)' in entry 'Naeem2012' is invalid - run biber with '--validate_datamodel' for details.
+[5477] Utils.pm:193> WARN - ISBN '0165-0173, 0165-0173' in entry 'Pineda2005' is invalid - run biber with '--validate_datamodel' for details.
+[5492] Utils.pm:193> WARN - ISBN '1873-7544 (Electronic)$\backslash$r0306-4522 (Linking)' in entry 'Anderson2011' is invalid - run biber with '--validate_datamodel' for details.
+[5509] Utils.pm:193> WARN - ISBN '1879-0445 (Electronic) 0960-9822 (Linking)' in entry 'Fuentemilla2010' is invalid - run biber with '--validate_datamodel' for details.
+[5516] Utils.pm:193> WARN - ISBN '0166-2236 (Print)$\backslash$r0166-2236 (Linking)' in entry 'Jensen2005' is invalid - run biber with '--validate_datamodel' for details.
+[5528] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Lisman1999' is invalid - run biber with '--validate_datamodel' for details.
+[5534] Utils.pm:193> WARN - ISBN '0036-8075' in entry 'Lisman1995' is invalid - run biber with '--validate_datamodel' for details.
+[5542] Utils.pm:193> WARN - ISBN '0096-1523 (Print)' in entry 'Awh1998' is invalid - run biber with '--validate_datamodel' for details.
+[5558] Utils.pm:193> WARN - ISBN '1053-8119' in entry 'Fransen2015' is invalid - run biber with '--validate_datamodel' for details.
+[5612] Utils.pm:193> WARN - ISBN '1460-9568' in entry 'Rainer2002' is invalid - run biber with '--validate_datamodel' for details.
+[5631] Utils.pm:193> WARN - ISBN '1530-8898$\backslash$r0898-929X' in entry 'Lewis-Peacock2012' is invalid - run biber with '--validate_datamodel' for details.
+[5650] Utils.pm:193> WARN - ISBN '1546-1726 (Electronic) 1097-6256 (Linking)' in entry 'Wolff2017' is invalid - run biber with '--validate_datamodel' for details.
+[5667] Utils.pm:193> WARN - ISBN '1364-6613' in entry 'Arnal2012' is invalid - run biber with '--validate_datamodel' for details.
+[5685] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic) 0896-6273 (Linking)' in entry 'Bastos2015' is invalid - run biber with '--validate_datamodel' for details.
+[5700] Utils.pm:193> WARN - ISBN '1097-4199 (Electronic)$\backslash$r0896-6273 (Linking)' in entry 'Michalareas2016' is invalid - run biber with '--validate_datamodel' for details.
+[5709] Utils.pm:193> WARN - ISBN '1471-0048 (Electronic)$\backslash$r1471-003X (Linking)' in entry 'Siegel2012' is invalid - run biber with '--validate_datamodel' for details.
+[5714] Utils.pm:193> WARN - ISBN '1522-1210 (Electronic)$\backslash$r0031-9333 (Linking)' in entry 'Wang2010' is invalid - run biber with '--validate_datamodel' for details.
+[5720] Utils.pm:193> WARN - ISBN '0959-4388' in entry 'Jones2016' is invalid - run biber with '--validate_datamodel' for details.
+[5726] Utils.pm:193> WARN - ISBN '1546-1726 (Electronic)$\backslash$r1097-6256 (Linking)' in entry 'Bettencourt2015' is invalid - run biber with '--validate_datamodel' for details.
+[5745] Utils.pm:193> WARN - ISBN '1364-6613' in entry 'Sreenivasan2014' is invalid - run biber with '--validate_datamodel' for details.
+[5779] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$n0270-6474 (Linking)' in entry 'Emrich2013' is invalid - run biber with '--validate_datamodel' for details.
+[5786] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic)$\backslash$n0270-6474 (Linking)' in entry 'Riggall2012' is invalid - run biber with '--validate_datamodel' for details.
+[5826] Utils.pm:193> WARN - ISBN '0896-6273' in entry 'Eriksson2015' is invalid - run biber with '--validate_datamodel' for details.
+[5832] Utils.pm:193> WARN - ISBN '1364-6613' in entry 'Fuster2012' is invalid - run biber with '--validate_datamodel' for details.
+[5838] Utils.pm:193> WARN - ISBN '0149-7634' in entry 'Zimmer2008' is invalid - run biber with '--validate_datamodel' for details.
+[5862] Utils.pm:193> WARN - ISBN '1529-2401 (Electronic) 0270-6474 (Linking)' in entry 'Ding2010' is invalid - run biber with '--validate_datamodel' for details.
+[5871] Utils.pm:193> WARN - ISBN '1095-9572' in entry 'Cole2010' is invalid - run biber with '--validate_datamodel' for details.
+[5883] Utils.pm:193> WARN - ISBN '1546-1726 (Electronic)$\backslash$n1097-6256 (Linking)' in entry 'Cole2013' is invalid - run biber with '--validate_datamodel' for details.
+[5890] Utils.pm:193> WARN - ISBN '1053-8119' in entry 'Cole2007' is invalid - run biber with '--validate_datamodel' for details.
+[5894] Utils.pm:193> WARN - ISBN '1364-6613' in entry 'Duncan2010' is invalid - run biber with '--validate_datamodel' for details.
+[5926] Utils.pm:193> WARN - ISBN '1047-3211, 1460-2199' in entry 'Muhle-Karbe2017' is invalid - run biber with '--validate_datamodel' for details.
+[5984] Utils.pm:193> WARN - ISBN '0028-0836' in entry 'Parmesan2003' is invalid - run biber with '--validate_datamodel' for details.
+[5992] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Horst\AppData\Local\Temp\rL4evtf2dT\library.bib_12128.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[6643] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[6643] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[6643] Biber.pm:3921> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'de-DE'
+[6643] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
+[7212] bbl.pm:636> INFO - Writing 'Dissertation-vLautz.bbl' with encoding 'UTF-8'
+[7440] bbl.pm:739> INFO - Output to Dissertation-vLautz.bbl
+[7446] Biber.pm:110> INFO - WARNINGS: 194

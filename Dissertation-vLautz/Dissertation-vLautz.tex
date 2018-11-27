@@ -6,7 +6,7 @@
 \pagenumbering{gobble}
 
 % === Titlepage
-\title{How brain rhythms guide memory and decisions}
+\title{How Brain Rhythms Guide Memory and Decisions}
 \subject{\textnormal{\textsc{Dissertation}}}
 \author{\parbox{.7\textwidth}{\normalsize\centering
   \foreignlanguage{ngerman}{ zur Erlangung des akademischen Grades \\
@@ -17,21 +17,21 @@ der Freien Universität Berlin
 \date{}%
 \publishers{\normalsize\foreignlanguage{ngerman}{%
   von\\
-  {\Large \textsc{Alexander Horst von Lautz}\\[.5ex]}%
+  {\Large \textsc{Horst Alexander von Lautz}\\[.5ex]}%
   Berlin 2018\\}
   % -- for final document version
 
   }
 \maketitle
-  \newpage
+  \cleardoublepage
   \mbox{}
   \vfill
 %\vspace{\fill}
-  \flushleft
+  %\flushleft
   1. Gutachter: Dr. Felix Blankenburg\\
-  2. Gutachter: Dr. Radoslav Cichy \\
+  2. Gutachter: Dr. Radoslaw Cichy \\
   \vskip 5mm
-  Tag der Disputation: 15.02.2019
+  Tag der Disputation: 
 
 
 %\cleardoublepage
@@ -41,28 +41,42 @@ der Freien Universität Berlin
 %\cleardoublepage
 \pagenumbering{roman}
 %\setcounter{page}{1}
-%\selectlanguage{english}
-%\phantomsection
-%\addcontentsline{toc}{chapter}{Acknowledgment}
-%\include{chapters/000_Acknowledgment}
-
-\selectlanguage{ngerman}
-\phantomsection
-\addcontentsline{toc}{chapter}{Zusammenfassung}
-\include{chapters/01_Zusammenfassung}
-
 \selectlanguage{english}
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Acknowledgments}
+\include{chapters/000_Acknowledgement}
+
+%\cleardoublepage
+\renewcommand{\contentsname}{Table of Contents}
+\phantomsection
+%\addcontentsline{toc}{chapter}{Table of Contents}
+\singlespacing
+\tableofcontents
+\doublespacing
+
+\cleardoublepage
 \phantomsection
 \addcontentsline{toc}{chapter}{Abstract}
 \include{chapters/00_abstract}
 
 \cleardoublepage
-\renewcommand{\contentsname}{Table of Contents}
+\selectlanguage{ngerman}
 \phantomsection
-\addcontentsline{toc}{chapter}{Table of Contents}
+\addcontentsline{toc}{chapter}{Zusammenfassung}
+\include{chapters/01_Zusammenfassung}
+
+%\cleardoublepage
+\selectlanguage{english}
+\phantomsection
+\addcontentsline{toc}{chapter}{Abbreviations}
 \singlespacing
-\tableofcontents
+\include{chapters/02_abbreviations}
 \doublespacing
+
+%\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Original Articles}
+\include{chapters/03_list_articles}
 
 \cleardoublepage
 \pagenumbering{arabic}
@@ -73,12 +87,22 @@ der Freien Universität Berlin
 \cleardoublepage
 \include{chapters/30_discussion}
 
-
 \cleardoublepage
 \phantomsection
 \addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Original Studies}
+\includepdf[scale=0.9,pages=-]{MEGstudy.pdf}
+%\includepdf[scale=0.9,pages=4-]{SFCERP.pdf}
+%\includepdf[scale=0.9,pages=4-]{Magdot.pdf}
+
 \cleardoublepage
-\selectlanguage{ngerman}
-\include{erklaerung}
+\phantomsection
+\addcontentsline{toc}{chapter}{Anlagen}
+%\includepdf[scale=0.9,pages=-]{Anlagen_4print.pdf}
+%\cleardoublepage
+%\selectlanguage{ngerman}
+%\include{erklaerung}
 \end{document}
